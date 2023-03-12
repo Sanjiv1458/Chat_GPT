@@ -6,7 +6,7 @@ from lxml import html, etree
 app = Flask(__name__)
 
 # Set OpenAI API key
-openai.api_key = "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"
+openai.api_key = "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"
 
 # Set OpenAI GPT-3 model ID
 model_engine = "text-davinci-003"
