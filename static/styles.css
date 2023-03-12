@@ -1,0 +1,64 @@
+/* Styles for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* Styles for the header */
+h1 {
+    text-align: center;
+    font-size: 48px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Styles for the form on the home page */
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+input[type="text"] {
+    width: 500px;
+    height: 50px;
+    font-size: 24px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #c2c2c2;
+}
+
+input[type="submit"] {
+    width: 150px;
+    height: 50px;
+    font-size: 24px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #c2c2c2;
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+/* Styles for the generated text on the results page */
+p {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #c2c2c2;
+}
